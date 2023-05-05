@@ -9,7 +9,17 @@ import SwiftUI
 
 struct SettingView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        TabView {
+            GeneralSettingsView()
+                .tabItem {
+                    Label("General", systemImage: "network")
+                }
+            SearchEnginesSettingsView()
+                .tabItem {
+                    Label("Engines", systemImage: "list.dash")
+                }
+        }
+        .frame(width: 450, height: 250)
     }
 }
 
