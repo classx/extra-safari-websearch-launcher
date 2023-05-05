@@ -32,7 +32,7 @@ struct SearcherApp: App {
             EmptyView()
         }
         Settings{
-            EmptyView()
+            SettingView()
         }
     }
 }

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8A28136A2A059CC1005D5855 /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2813692A059CC1005D5855 /* SettingView.swift */; };
 		8AAFB3182A041FA4005FB4A9 /* SearcherApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AAFB3172A041FA4005FB4A9 /* SearcherApp.swift */; };
 		8AAFB31A2A041FA4005FB4A9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AAFB3192A041FA4005FB4A9 /* ContentView.swift */; };
 		8AAFB31C2A041FA5005FB4A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AAFB31B2A041FA5005FB4A9 /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8A2813692A059CC1005D5855 /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
 		8AAFB3142A041FA4005FB4A9 /* Searcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Searcher.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AAFB3172A041FA4005FB4A9 /* SearcherApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearcherApp.swift; sourceTree = "<group>"; };
 		8AAFB3192A041FA4005FB4A9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -33,6 +35,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8A2813672A059C91005D5855 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8A2813692A059CC1005D5855 /* SettingView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8A2813682A059C9A005D5855 /* Drafts */ = {
+			isa = PBXGroup;
+			children = (
+				8AAFB3192A041FA4005FB4A9 /* ContentView.swift */,
+			);
+			path = Drafts;
+			sourceTree = "<group>";
+		};
 		8AAFB30B2A041FA4005FB4A9 = {
 			isa = PBXGroup;
 			children = (
@@ -52,8 +70,9 @@
 		8AAFB3162A041FA4005FB4A9 /* Searcher */ = {
 			isa = PBXGroup;
 			children = (
+				8A2813682A059C9A005D5855 /* Drafts */,
+				8A2813672A059C91005D5855 /* Views */,
 				8AAFB3172A041FA4005FB4A9 /* SearcherApp.swift */,
-				8AAFB3192A041FA4005FB4A9 /* ContentView.swift */,
 				8AAFB31B2A041FA5005FB4A9 /* Assets.xcassets */,
 				8AAFB3202A041FA5005FB4A9 /* Searcher.entitlements */,
 				8AAFB31D2A041FA5005FB4A9 /* Preview Content */,
@@ -139,6 +158,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A28136A2A059CC1005D5855 /* SettingView.swift in Sources */,
 				8AAFB31A2A041FA4005FB4A9 /* ContentView.swift in Sources */,
 				8AAFB3182A041FA4005FB4A9 /* SearcherApp.swift in Sources */,
 			);
